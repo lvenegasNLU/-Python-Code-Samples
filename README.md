@@ -22,7 +22,7 @@ print("Hello", USER)
 
 
 USER=str(input("enter your name: "))
-Luis=print("Hello Luis")
+Luis=print("Hello Luis")                      #invalid code, print does not return any values (Sunhwa Nam)
 Sunha=print("Good day, sunhwa Nam")
 print("Hello", USER)
 
@@ -57,7 +57,7 @@ print("HERE IS YOUR RESULT, HAVE A NICE DAY")
  
 print("Enter Fahrenheit:")
 
-fahrenheit = float(input())
+fahrenheit = float(input())          # fahrenheit = float(input("Enter Fahrenheit:")) :Sunhwa Nam
 
 celsius = (fahrenheit - 32)*5/9
 
@@ -69,5 +69,10 @@ print ("Celsius:", celsius)
 STARTDAY = int(input("What day did you leave from 0-6? "))
 GONEDAYS = int(input("how many days are you gone? "))
 ENDDAY= (STARTDAY + GONEDAYS) % 7
-print(ENDDAY)
+print(ENDDAY) 
 
+'''
+    Sunhwa Nam
+    Python codes should be added to this repository as a separate file. Read.me just contains the information regarding this program.
+    Additionally, please upload this program if you didn't submit it to Lab3 assignment page.
+'''
